@@ -2,76 +2,62 @@
 
 class PublicUserInformation
 {
-	public int userID { get; set; }
-	public string loginname { get; set; }
-	public string password { get; set; }
-	public bool mfa { get; set; }
+	public int UserID { get; set; }
+	public string Loginname { get; set; }
+	public string Password { get; set; }
+	public bool MFA { get; set; }
 
-    public PublicUserInformation(int UserID, string Loginname, string Password, bool MFA)
+    public PublicUserInformation(int userID, string loginname, string password, bool mfa)
     {
-        this.userID = UserID;
-        this.loginname = Loginname;
-        this.password = Password;
-		this.mfa = MFA;
+        UserID = userID;
+		Loginname = loginname;
+		Password = password;
+		MFA = mfa;
     }
-    public PublicUserInformation(int UserID, string Loginname, string Password)
+    public PublicUserInformation(int userID, string loginname, string password)
 	{
-		this.userID = UserID;
-		this.loginname = Loginname;
-		this.password = Password;
+		UserID = userID;
+		Loginname = loginname;
+		Password = password;
 	}
 }
 
 class RequestedLock
 {
-	private string requestedLockID; //primary key
-	private string requestID;
-	private string userCodeR; //foreign key obtained from private db
-    private string userCodeI; //foreign key obtained from private db
-    private DateTime dateExpire;
-	private int useCount;
-	private int useCountLimit;
+    public string RequestedLockID { get; set; }
+    public string RequestID { get; set; }
+    public string UserCodeR { get; set; }
+    public string UserCodeI { get; set; }
+    public DateTime DateExpire { get; set; }
+    public int UseCount { get; set; }
+    public int UseCountLimit { get; set; }
 
-	public RequestedLock(string requestedLockID, string requestID, string userCodeR, string userCodeI, DateTime dateExpire, int useCount, int useCountLimit)
+    public RequestedLock(string requestedLockID, string requestID, string userCodeR, string userCodeI, DateTime dateExpire, int useCount, int useCountLimit)
     {
-        string RequestedLockID = requestedLockID;
-        string RequestID = requestID;
-        string UserCodeR = userCodeR;
-        string UserCodeI = userCodeI;
-        DateTime DateExpire = dateExpire;
-        int UseCount = useCount;
-        int UseCountLimit = useCountLimit;
-    }
-
-	public string RequestedLockID { get; set; }
-	public string RequestID { get; set; }
-	public string UserCodeR { get; set; }
-	public string UserCodeI { get; set; }
-	public DateTime DateExpire { get; set; }
-	public int UseCount { get; set; }
-	public int UseCountLimit { get; set; }
+        RequestedLockID = requestedLockID;
+        RequestID = requestID;
+        UserCodeR = userCodeR;
+        UserCodeI = userCodeI;
+        DateExpire = dateExpire;
+        UseCount = useCount;
+        UseCountLimit = useCountLimit;
+    }	
 }
 
 class DocUpload
 {
-	private string docUploadID;
-	private string userCode;
-	private string docType;
-	private string documentExt;
-	private string docHashCode;
+    public string DocUploadID { get; set; }
+    public string UserCode { get; set; }
+    public string DocType { get; set; }
+    public string DocumentExt { get; set; }
+    public string DocHashCode { get; set; }
 
-	public DocUpload(string docUploadID, string userCode, string docType, string documentExt, string docHashCode)
+    public DocUpload(string docUploadID, string userCode, string docType, string documentExt, string docHashCode)
     {
-        string DocUploadID = docUploadID;
-        string UserCode = userCode;
-        string DocType = docType;
-        string DocumentExt = documentExt;
-        string DocHashCode = docHashCode;
+        DocUploadID = docUploadID;
+        UserCode = userCode;
+        DocType = docType;
+        DocumentExt = documentExt;
+        DocHashCode = docHashCode;
     }
-
-	public string DocUploadID { get; set; }
-	public string UserCode { get; set; }
-	public string DocType { get; set; }
-	public string DocumentExt { get; set; }
-	public string DocHashCode { get; set; }
 }

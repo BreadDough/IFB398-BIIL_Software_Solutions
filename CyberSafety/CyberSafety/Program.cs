@@ -10,40 +10,18 @@ class Program
 
         PVTUserInformation PVTUser = new PVTUserInformation(1234, "1234", "Org", "Brendan", "Dougherty", "QUT");
         PublicUserInformation PublicUser = new PublicUserInformation(1234, "Brendan_from_QUT", "1234");
+        //AddressTable Address = new AddressTable();
 
-        functions.Register(PVTUser, PublicUser);
+        //functions.RegisterUserInformation(PVTUser, PublicUser);
+
+        UserContact userContact = new UserContact(1, 1, "Phone", "12345678", "test");
+        //functions.RegisterUserContact(userContact);
+
+        DateTime testtime = new DateTime(2024, 01, 01);
+        Documentation document = new Documentation(1234, 1, "idk", "test", "idk", testtime);
+        functions.RegisterDocument(document);
 
         ////right click data connect, go to properties, copy and paste the connection string
         //string connectionString = "Data Source=DESKTOP-78ECCHH;Initial Catalog=csc_Public;Integrated Security=True";
-
-        //using (SqlConnection connection = new SqlConnection(connectionString))
-        //{
-        //    try
-        //    {
-        //        connection.Open();
-        //        Console.WriteLine("Connected to Server");
-
-        //        string sqlQuery = "SELECT LoginName FROM tUser";
-
-        //        using (SqlCommand command = new SqlCommand(sqlQuery, connection))
-        //        {
-        //            using (SqlDataReader reader = command.ExecuteReader())
-        //            {
-        //                while (reader.Read())
-        //                {
-        //                    string loginname = reader["LoginName"].ToString();
-
-        //                    Console.WriteLine(loginname);
-        //                }
-        //            }
-        //        }
-
-        //        connection.Close();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine("Error: " + ex.Message);
-        //    }
-        //}
     }
 }

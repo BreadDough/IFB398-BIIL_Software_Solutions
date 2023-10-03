@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bsdou\\OneDrive - Queensland University of Technology\\UniStuff\\IFB398\\CyberSafety\\CyberSafety\\CyberSafety.csproj": {}
+    "C:\\Users\\bsdou\\OneDrive - Queensland University of Technology\\UniStuff\\IFB398\\GitHub_Project\\CyberSafety\\CyberSafety\\CyberSafety.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bsdou\\OneDrive - Queensland University of Technology\\UniStuff\\IFB398\\CyberSafety\\CyberSafety\\CyberSafety.csproj": {
+    "C:\\Users\\bsdou\\OneDrive - Queensland University of Technology\\UniStuff\\IFB398\\GitHub_Project\\CyberSafety\\CyberSafety\\CyberSafety.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bsdou\\OneDrive - Queensland University of Technology\\UniStuff\\IFB398\\CyberSafety\\CyberSafety\\CyberSafety.csproj",
+        "projectUniqueName": "C:\\Users\\bsdou\\OneDrive - Queensland University of Technology\\UniStuff\\IFB398\\GitHub_Project\\CyberSafety\\CyberSafety\\CyberSafety.csproj",
         "projectName": "CyberSafety",
-        "projectPath": "C:\\Users\\bsdou\\OneDrive - Queensland University of Technology\\UniStuff\\IFB398\\CyberSafety\\CyberSafety\\CyberSafety.csproj",
+        "projectPath": "C:\\Users\\bsdou\\OneDrive - Queensland University of Technology\\UniStuff\\IFB398\\GitHub_Project\\CyberSafety\\CyberSafety\\CyberSafety.csproj",
         "packagesPath": "C:\\Users\\bsdou\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bsdou\\OneDrive - Queensland University of Technology\\UniStuff\\IFB398\\CyberSafety\\CyberSafety\\obj\\",
+        "outputPath": "C:\\Users\\bsdou\\OneDrive - Queensland University of Technology\\UniStuff\\IFB398\\GitHub_Project\\CyberSafety\\CyberSafety\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
