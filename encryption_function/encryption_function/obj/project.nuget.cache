@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GsJlB67au4TmZlcEPXyyXpbxOEGZbi0BRxI/JO201nIHOtAXw547OfLSyJfwQYaWCJtoSU850GLokQ6UN195pQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Steal\\source\\repos\\encryption_function\\encryption_function\\encryption_function.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Steal\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

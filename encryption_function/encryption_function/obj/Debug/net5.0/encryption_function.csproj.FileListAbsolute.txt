@@ -1,0 +1,15 @@
+C:\Users\Steal\source\repos\encryption_function\encryption_function\bin\Debug\net5.0\encryption_function.exe
+C:\Users\Steal\source\repos\encryption_function\encryption_function\bin\Debug\net5.0\encryption_function.deps.json
+C:\Users\Steal\source\repos\encryption_function\encryption_function\bin\Debug\net5.0\encryption_function.runtimeconfig.json
+C:\Users\Steal\source\repos\encryption_function\encryption_function\bin\Debug\net5.0\encryption_function.runtimeconfig.dev.json
+C:\Users\Steal\source\repos\encryption_function\encryption_function\bin\Debug\net5.0\encryption_function.dll
+C:\Users\Steal\source\repos\encryption_function\encryption_function\bin\Debug\net5.0\encryption_function.pdb
+C:\Users\Steal\source\repos\encryption_function\encryption_function\obj\Debug\net5.0\encryption_function.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steal\source\repos\encryption_function\encryption_function\obj\Debug\net5.0\encryption_function.AssemblyInfoInputs.cache
+C:\Users\Steal\source\repos\encryption_function\encryption_function\obj\Debug\net5.0\encryption_function.AssemblyInfo.cs
+C:\Users\Steal\source\repos\encryption_function\encryption_function\obj\Debug\net5.0\encryption_function.csproj.CoreCompileInputs.cache
+C:\Users\Steal\source\repos\encryption_function\encryption_function\obj\Debug\net5.0\encryption_function.dll
+C:\Users\Steal\source\repos\encryption_function\encryption_function\obj\Debug\net5.0\refint\encryption_function.dll
+C:\Users\Steal\source\repos\encryption_function\encryption_function\obj\Debug\net5.0\encryption_function.pdb
+C:\Users\Steal\source\repos\encryption_function\encryption_function\obj\Debug\net5.0\encryption_function.genruntimeconfig.cache
+C:\Users\Steal\source\repos\encryption_function\encryption_function\obj\Debug\net5.0\ref\encryption_function.dll
